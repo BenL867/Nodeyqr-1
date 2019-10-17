@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+</head>
+<body>
+    <h1>Create User</h1>
+    <hr>
+    <div>
+        <textarea name="name">Name</textarea>
+    <form>
+        <select name="name" placeholder="name">
+            <option value="deadpool">deadpool</option>
+            <option value="Batman_vs_Superman">Batman v Superman</option>
+            <option value="doctor_strange">Doctor Strange</option>
+            <option value="suicide_squad">Suicide Squad</option>
+            <option value="apocalyspe">X-Men Apocalyspe</option>
+            <option value="gotg_vol2">Guardians of the Galaxy Vol 2</option>
+            <option value="justice league">Justice League</option>
+            <option value="Logan">Logan</option>
+            <option value="homecoming">Spider-Man Homecoming</option>
+            <option value="wonder_woman">Wonder Woman</option>
+            <option value="thor_ragnarok">Thor Ragnarok</option>
+            <option value="black_panther">Black Panther</option>
+        </select>
+        <br/>
+        <textarea name="bio">Bio</textarea>
+    </form>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="filename" />
+      </form>
+      <form>
+            <button value="clear form" name="clear form">Clear Form</button>
+          </form>
+          <form>
+                <button value="Add new user" name="Add new user">Add new user</button>
+              </form>
+    </div>
+</body>
+</html>

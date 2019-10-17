@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+</head>
+<body>
+    <h1>Create User</h1>
+    <hr/>
+    <form action="create_user.html" method="GET" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>user form</legend>
+       <label for="username">username</label>
+        <input type="text" name="username" placeholder="username" size="30" maxlength="12">
+        <br/>
+        <label for="password">password</label>
+        <input type="password" name="password" placeholder="password" size="30" maxlength="12">
+        <br/>
+        <label for="superheros">select fav superhero</label>
+        <input type="radio" name="superheroes" value="superman"/>Superman
+        <input type="radio" name="superheroes" value="wonderwoman"/>wonder woman
+        <input type="radio" name="superheroes" value="wolverine"/>wolverine
+        <input type="radio" name="superheroes" value="spiderman"/>Spiderman
+        <input type="radio" name="superheroes" value="ironman"/>ironman
+        <br/>
+        <label for="videogame">select fav game</label>
+        <input type="checkbox" name="videogames" value="fifa"/>FIFA
+        <input type="checkbox" name="videogames" value="nba2k"/>NBA 2K
+        <input type="checkbox" name="videogames" value="Halo"/>Halo
+        <input type="checkbox" name="videogames" value="UFC"/>UFC
+       
+   </fieldset>
+        </form>
+        <form>
+            <label>Date</label>
+                <input type="date" name="birthday" />
+                <input id="date" type="date" value="1980-04-02">
+              </form>
+              <form>
+                  <label>E-Mail</label>
+                    <input type="email" name="email" />
+                  </form>
+                  <form>
+                      <label>URL</label>
+                        <input type="url" name="personalsite" />
+                      </form>
+                      <form action="https://www.google.ca/search">
+                          <label>Search</label>
+                            <input type="q" name="query" />
+                          </form>
+                      <br/>
+                      <input type="submit" value="create account"/>
+</body>
+</html>
